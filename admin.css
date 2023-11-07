@@ -1,0 +1,54 @@
+html, body{
+    min-height: 100% ;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 3fr 1fr;
+    
+    height:100%;
+   
+   
+}
+.dash{
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    grid-column:1/2;
+    
+    
+
+}
+.top_header{
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    grid-column:2/4;
+}
+.bottom_header{
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    grid-column:2/4;
+}
+.projects{
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    grid-column:2/3;
+}
+.announcements{
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    grid-column:3/4
+}
+.trending{
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+    grid-column:3/4
+}
